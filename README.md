@@ -25,3 +25,6 @@ testing:
 ```
 python test.py
 ```
+
+## pre-trained model
+[link](https://drive.google.com/drive/folders/1CzqX67Z1F0yWJuO4zgpT7s_70P4mVbKE?usp=sharing)
