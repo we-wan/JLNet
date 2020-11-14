@@ -83,7 +83,7 @@ class base_train(object):
         self.test_acc = 0
 
     def objects_fun(self):
-        self.Net = getattr(config.model, config.model_name)()
+        self.Net = getattr(self.model, self.model_name)()
         net = self.Net.net
         criterion = self.loss()
         if self.optim == 'sgd':
