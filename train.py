@@ -18,6 +18,7 @@ class JLNet_train(base_train):
 
 
     def objects_fun(self):
+        self.Net = getattr(self.model, self.model_name)()
         net = self.Net.net
         # net.to(self.device)
         criterion = self.loss
