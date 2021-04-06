@@ -3,8 +3,9 @@
 [Wang, W., You, S., & Gevers, T. (2020, August). Kinship Identification through Joint Learning using Kinship Verification Ensembles. In European Conference on Computer Vision (pp. 613-628). Springer, Cham.](https://arxiv.org/pdf/2004.06382.pdf)
 
 ------------------------
+<p align="center" width="100%">
 <iframe src="https://www.youtube.com/embed/PZMiyP2oPBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</p>
 ------------------------
 
 ## Dataset
