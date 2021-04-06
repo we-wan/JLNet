@@ -1,9 +1,9 @@
 # Kinship Identification through Joint Learning Using Kinship Verification Ensembles
 
-***JLNet*** [Wang, W., You, S., & Gevers, T. (2020, August). Kinship Identification through Joint Learning using Kinship Verification Ensembles. In European Conference on Computer Vision (pp. 613-628). Springer, Cham.](https://arxiv.org/pdf/2004.06382.pdf)
+[Wang, W., You, S., & Gevers, T. (2020, August). Kinship Identification through Joint Learning using Kinship Verification Ensembles. In European Conference on Computer Vision (pp. 613-628). Springer, Cham.](https://arxiv.org/pdf/2004.06382.pdf)
 
 ------------------------
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PZMiyP2oPBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/PZMiyP2oPBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ------------------------
 
