@@ -110,7 +110,7 @@ class JLNet_train(base_train):
                 #
                 # mmd +=1
                 # if mmd == 4:
-                if epoch <70:
+                if epoch <self.epoch_stone1:
                     ########## fd
                     optimizer.zero_grad()
                     fd = net.fd_forward(img_fd)
@@ -137,7 +137,7 @@ class JLNet_train(base_train):
                     optimizer.step()
 
                     # mmd = 0
-                elif epoch<160:
+                elif epoch<self.epoch_stone2:
                     mmd +=1
                     if mmd == 4:
                         ########## fd
@@ -180,10 +180,10 @@ class JLNet_train(base_train):
                 ls_md = loss_md(md,md_label)
                 ls_ms = loss_ms(ms,ms_label)
                 ls_all = loss_all(all,labels)
-                if epoch <130:
-                    loss = ls_fd+ls_fs+ls_md+ls_ms+10*ls_all
+                if epoch <self.epoch_stone3:
+                    loss = ls_fd+ls_fs+ls_md+ls_ms+self.loss_all_ratio*ls_all
                 else:
-                    loss = self.loss_ratio*(ls_fd+ls_fs+ls_md+ls_ms)+10*ls_all
+                    loss = self.loss_ratio*(ls_fd+ls_fs+ls_md+ls_ms)+self.loss_all_ratio*ls_all
 
                 loss.backward()
                 optimizer2.step()
