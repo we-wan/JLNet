@@ -50,6 +50,9 @@ class kin_config(object):
     imsize = (6,64,64)
     ## epoch numbers
     epoch_num = 200
+    epoch_stone1 = 70
+    epoch_stone2 = 160
+    epoch_stone3 = 130
     ## batch
     train_batch =  64
     test_batch = 64
@@ -62,6 +65,7 @@ class kin_config(object):
 
     ## loss weights
     loss_ratio = 0.4
+    loss_all_ratio=10
 
     ## criterion weights
     cr_weights = [0.18,2,2,2,2.2]
