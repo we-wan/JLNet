@@ -17,6 +17,9 @@ class base_train(object):
         ## init param
         self.kintype = config.kintype
         self.epoch_num = config.epoch_num
+        self.epoch_stone1 = config.epoch_stone1
+        self.epoch_stone2 = config.epoch_stone2
+        self.epoch_stone3 = config.epoch_stone3
         self.list_path = config.list_path
         self.img_root = config.img_root
         self.show_lstep = config.show_lstep
@@ -42,6 +45,8 @@ class base_train(object):
         self.test_batch = config.test_batch
         self.save_tacc = config.save_tacc
         self.loss = config.loss
+        self.loss_all_ratio = config.loss_all_ratio
+        
 
 
         self.optim = config.optimal
