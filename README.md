@@ -1,6 +1,7 @@
 # JLNet
 
-***JLNet*** [arXiv](https://arxiv.org/pdf/2004.06382.pdf)
+<!-- ***JLNet*** [arXiv](https://arxiv.org/pdf/2004.06382.pdf) -->
+***updated paper*** [paper](./imgs/paper.pdf)
 
 ## Dataset
 The dataset can be downloaded at [KinFaceW Website](https://www.kinfacew.com/download.html)
